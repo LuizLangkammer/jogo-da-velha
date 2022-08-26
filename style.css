@@ -1,0 +1,27 @@
+button{
+    width: 60px;
+    height: 60px;
+    background-color: #666;
+    border-style: none;
+    font-size: xx-large;
+    font-weight: bold;
+}
+h1{
+    text-align: center;
+}
+p{
+    text-align: center;
+}
+.screen{
+    height: 100vh;
+    display: grid;
+    grid-template-rows: 0.25fr 1fr 0.25fr;
+}
+.container{
+    margin: auto;
+    margin-top: 100px;
+    width: fit-content;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    gap: 3px;
+}
